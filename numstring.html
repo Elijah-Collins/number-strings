@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Math Strings</title>
+    <link href="numstring.css" rel="stylesheet" />
+    <script src="numstrscript.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1> Math and Number Strings </h1>
+        </br>
+        <h2>All Values Are Required</h2>
+    </header>
+    <form>
+        <p>
+            First Number: </br>
+            <input type="text" id="first" class="numinput" required></br>
+        </p>
+        <p>
+            Second Number: </br>
+            <input type="text" id="second" class="numinput" required></br>
+        </p>
+        <p>
+            Third Number: </br>
+            <input type="text" id="third" class="numinput" required></br>
+        </p>
+        <p>
+            Fourth Number: </br>
+            <input type="text" id="fourth" class="numinput" required></br>
+        </p>
+        <p>
+            Fifth Number: </br>
+            <input type="text" id="fifth" class="numinput" required></br>
+        </p>
+        <p>
+            Sixth Number: </br>
+            <input type="text" id="sixth" class="numinput" required></br>
+        </p>
+        <article>Options: <span id="buttonplacement"></span></article> </br> 
+
+        <button name="submit" type="button" onclick="order()">Orders Least to Greatest</button>
+        <button name="submit" type="button" onclick="median()">Identify the Median</button>
+        <button name="submit" type="button" onclick="largest()">Identify the Largest Number</button></br>
+        <button name="submit" type="button" onclick="smallest()">Identify the Smallest Number</button>
+        <button name="submit" type="button" onclick="mean()">Identify the Mean</button>
+        <button name="submit" type="button" onclick="mode()">Identify the Mode</button></br>
+        <button name="submit" type="button" onclick="range()">Identify the Range</button>
+        <button name="submit" type="button" onclick="duplicate()">Locate the Duplicate Values</button>
+        <button name="submit" type="button" onclick="unique()">Locate the Unique Values</button>
+    </form>
+</br>
+    <article id="outputarticle">
+        <p>Output:</p>
+        <span id="gohere"></span>
+    </article>
+</body>
+</html>

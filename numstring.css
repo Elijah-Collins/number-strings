@@ -1,0 +1,26 @@
+html{
+    background-color: bisque;
+}
+h1, h2, article{
+    text-align: center;
+}
+button{
+    font-size: 2em;
+    width: 33%;
+    height: 10%;
+    color: black;
+    background-color: white;
+    border: solid 1.5px black ;
+}
+form > p, input{
+    text-align: center;
+}
+#outputarticle{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    background-color: white;
+    border: solid 5px black;
+    width: 93.9%;
+    height: 125px;
+}
