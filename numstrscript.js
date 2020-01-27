@@ -262,7 +262,29 @@ function mode(){
     var fifth = parseFloat(num5.value);
     var sixth = parseFloat(num6.value);
 
-    
+    output.innerHTML = "";
+    var n1 = 1;
+    var n2 = 1;
+    var n3 = 1;
+    var n4 = 1;
+    var n5 = 1;
+    var n6 = 1;
+
+    if(first === second){
+        n1++;
+    }
+    if(first === third){
+        n1++;
+    }
+    if(first === fourth){
+        n1++;
+    }
+    if(first === fifth){
+        n1++;
+    }
+    if(first === sixth){
+        n1++;
+    }
 }
 
 function range(){
@@ -273,7 +295,24 @@ function range(){
     var fifth = parseFloat(num5.value);
     var sixth = parseFloat(num6.value);
 
-    
+    output.innerHTML="";
+    var ran2 = first;
+    if(ran2 > second){
+        ran2 = second;
+    }
+    if(ran2 > third){
+        ran2 = third;
+    }
+    if(ran2 > fourth){
+        ran2 = fourth;
+    }
+    if(ran2 > fifth){
+        ran2 = fifth;
+    }
+    if(ran2 > sixth){
+        ran2 = sixth;
+    }
+    output.innerHTML = ran - ran2;
 }
 
 function duplicate(){
