@@ -153,15 +153,15 @@ function median(){
 
     output.innerHTML="";
 
-    var mid2 = one;
-    if(mid2 < two){
-        mid2 = two;
+    var mid2 = first;
+    if(mid2 < second){
+        mid2 = second;
     }
     if(mid2 < three){
         mid2 = three;
     }
-    if(mid2 < four){
-        mid2 = four;
+    if(mid2 < fourth){
+        mid2 = fourth;
     }
     if(mid2 > five){
         mid2 = five;
@@ -169,15 +169,15 @@ function median(){
     if(mid2 > six){
         mid2 = six;
     }
-    var mid = one;
-    if(mid < two){
-        mid = two;
+    var mid = first;
+    if(mid < second){
+        mid = second;
     }
     if(mid < three){
         mid = three;
     }
-    if(mid > four){
-        mid = four;
+    if(mid > fourth){
+        mid = fourth;
     }
     if(mid > five){
         mid = five;
